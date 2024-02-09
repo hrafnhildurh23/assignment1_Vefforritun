@@ -61,14 +61,14 @@ body {
   ;
 }
 
+.play {
+  margin-right: 16%;
+}
 
 .record {
   display: flex;
   justify-content : center;
   align-items: center;
-  margin-left: auto;
-  margin-right: 59%;
-  padding-left: 40px;
 }
 
 .key {
@@ -123,10 +123,10 @@ body {
   }
   
   .c5 {
-    margin-left: 61%;
+    margin-left: 62%;
   }
   .d5 {
-    margin-left: 69%;
+    margin-left: 70%;
   }  
 
   .play {
