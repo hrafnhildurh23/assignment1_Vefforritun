@@ -45,6 +45,13 @@ body {
   align-items : center; 
 }
 
+.button:hover {
+  background-color: #e9e9ed;
+  color: #989898
+  ;
+}
+
+
 .record {
   display: flex;
   justify-content : center;
@@ -70,7 +77,12 @@ body {
     height: 100px;
     width: 75px;
     background-color: white;
+    transition-duration: 0.4s;
+  }
 
+  .white-key:hover {
+   background-color: #989898;
+   color: white;
   }
 
   .black-key {
@@ -101,6 +113,7 @@ button {
 img {
   width: 16px;
   height: 16px;
+  align-items : center 
 }
 
 select {
