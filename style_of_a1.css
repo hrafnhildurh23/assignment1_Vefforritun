@@ -82,7 +82,7 @@ body {
     transition-duration: 0.4s;
   }
 
-  .white-key:hover {
+  .white-key:active {
    background-color: #989898;
   }
 
@@ -96,7 +96,7 @@ body {
     right: 25px;
   }
 
-  .black-key:hover {
+  .black-key:active {
     background-color: #989898;
   }
 
