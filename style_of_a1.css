@@ -4,25 +4,18 @@
     margin: 0;
     padding: 0;
   }
-  button {
-    border: none;
+  .button1 {
+    border-radius: 8px;
+    background-color: #e9e9ed;
+    border: 2px solid #a3a3ae;
     cursor: pointer;
     appearance: none;
-    background-color: inherit;
   }
   div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
-  }
-  
-  button {
-    transition: transform 0.7s ease-in-out;
-  }
-  
-  button:hover {
-    transform: rotate(360deg);
   }
   
   img {
