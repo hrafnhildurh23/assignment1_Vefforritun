@@ -87,7 +87,7 @@ body {
   }
 
   .black-key {
-    top: -12.5px;
+    top: 0px;
     height: 75px;
     width: 50px;
     background-color: black;
