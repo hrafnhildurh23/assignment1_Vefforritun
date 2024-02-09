@@ -27,28 +27,49 @@ body {
   }
 }
 
-* {
-    margin: 0;
-    padding: 0;
-  }
-  .button1 {
-    border-radius: 8px;
-    background-color: #e9e9ed;
-    border: 2px solid #a3a3ae;
-    cursor: pointer;
-    appearance: none;
-  }
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-  }
-  
-  img {
-    width: 70px;
-    height: 70px;
-  }
+label {
+  margin-right: 2px;
+}
+
+button {
+  margin-right: 2px;
+  width: 28px;
+  height: 24px;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #e9e9ed;
+  border: 2px solid #a3a3ae;
+  cursor: pointer;
+  appearance: none;
+}
+
+img {
+  width: 16px;
+  height: 16px;
+}
+
+select {
+  width: 20vw;
+  background-color: #e9e9ed;
+  border: 1px solid #a3a3ae;
+  border-radius: 3px;
+  margin-right: 2px;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+}
+
+.record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: auto;
+}
   
   input[type='email'] {
     padding: 10px;

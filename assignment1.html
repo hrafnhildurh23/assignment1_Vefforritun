@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Má ekki takka út h1 og fleira sem þarf ekki að nota?-->
     <head>
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style_of_a1.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <div class="imageClass">
@@ -12,22 +11,27 @@
             <p>This website requires at least 600px screen width.</p>
         </div>
 
-    <!-- setja inn felligluggann.-->
-        <form>
-        <label for="Tune">Tune:</label>
-            <select name="songs">
-                <!--Þarf að finna út hvernig maður birtir þýska u. -->
-            <option value="fürelise">Für Elise</option>
-            <option value="thegodfather">The Godfather</option>
-            <option value="sevennationarmy">Seven Nation Army</option>
-            </select> 
-            <!-- setja inn play takka.-->
-            <button type="submit">
-                <img src="play.png" alt="playpng" border="0" />
-            </button>
-        
-        </form>
-
-
+        <div class="pianoClass">
+            <div class="play">
+                <label for="Tune">Tune:</label>
+                    <select name="songs">
+                    <option value="fürelise">F&#252r Elise</option>
+                    <option value="thegodfather">The Godfather</option>
+                    <option value="sevennationarmy">Seven Nation Army</option>
+                    </select> 
+                    <button type="submit">
+                        <img src="play.png" alt="Play button" />
+                    </button>
+                </div>
+            <div class="record">
+                <label for="Record">Record:</label>
+                    <button type="submit">
+                        <img src="record.png" alt="Record button" />
+                    </button>
+                    <button type="submit">
+                        <img src="stop.png" alt="Stop button" />
+                    </button>
+                </div>
+        </div>
     </body>
 </html>
