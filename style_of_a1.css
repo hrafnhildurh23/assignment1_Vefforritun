@@ -45,6 +45,13 @@ body {
   align-items : center;
 }
 
+.button:hover {
+  background-color: #e9e9ed;
+  color: #989898
+  ;
+}
+
+
 .record {
   display: flex;
   justify-content : center;
@@ -68,19 +75,29 @@ body {
   padding: 0px;
 }
 
-.white-key {
-  height: 100px;
-  width: 75px;
-  background-color: white;
-}
+  .white-key {
+    height: 100px;
+    width: 75px;
+    background-color: white;
+    transition-duration: 0.4s;
+  }
 
-.black-key {
-  top: 0px;
-  height: 75px;
-  width: 50px;
-  background-color: black;
-  color: white;
-}
+  .white-key:hover {
+   background-color: #989898;
+  }
+
+  .black-key {
+    top: -12.5px;
+    height: 75px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+  }
+
+  .black-key:hover {
+    background-color: #989898;
+  }
 
   .play {
   display: flex;
@@ -102,6 +119,7 @@ button {
 img {
   width: 16px;
   height: 16px;
+  align-items : center
 }
 
 select {
