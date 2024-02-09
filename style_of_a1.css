@@ -18,8 +18,8 @@ body {
 .pianoClass {
   display: flex;
   align-items: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 0;
+  margin-right: 5%;
   margin-bottom: 10px;
 }
 
@@ -42,7 +42,7 @@ body {
   border: 2px solid #a3a3ae;
   cursor: pointer;
   appearance: none;
-  align-items : center; 
+  align-items : center;
 }
 
 .button:hover {
@@ -57,7 +57,7 @@ body {
   justify-content : center;
   align-items: center;
   margin-left: auto;
-  margin-right: 35%;
+  margin-right: 59%;
   padding-left: 40px;
 }
 
@@ -71,6 +71,8 @@ body {
   border: 1px solid #a3a3ae;
   text-align: center;
   position: relative;
+  margin: 0px;
+  padding: 0px;
 }
 
   .white-key {
@@ -85,7 +87,7 @@ body {
   }
 
   .black-key {
-    top: -12.5px;
+    top: 0px;
     height: 75px;
     width: 50px;
     background-color: black;
@@ -96,11 +98,11 @@ body {
   .black-key:active {
     background-color: #989898;
   }
-  
+
   .play {
   display: flex;
   align-items : center;
-  
+
 }
 
 
@@ -117,7 +119,7 @@ button {
 img {
   width: 16px;
   height: 16px;
-  align-items : center 
+  align-items : center
 }
 
 select {
