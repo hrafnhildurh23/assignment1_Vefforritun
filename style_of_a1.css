@@ -1,4 +1,31 @@
 /* Var búin að finna beinagrind að takka, ákvað að henda inn css fyrir hann. Á eftir að aðlaga að okkar*/
+body {
+  background-color: white;
+}
+
+.imageClass {
+  display: none;
+}
+
+.imageClass img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; 
+  height: 80%;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 599px) {
+.pianoClass {
+      display: none;
+  }
+  .imageClass {
+      display: block;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+  }
+}
 
 * {
     margin: 0;
