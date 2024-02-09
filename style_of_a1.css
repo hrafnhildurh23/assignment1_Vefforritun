@@ -36,45 +36,18 @@ body {
   }
 }
 
-label {
-  margin-right: 3px;
-}
-
-button {
-  margin-right: 3px;
-  width: 28px;
-  height: 24px;
-}
-
 .button {
   border-radius: 8px;
   background-color: #e9e9ed;
   border: 2px solid #a3a3ae;
   cursor: pointer;
   appearance: none;
-}
-
-img {
-  width: 16px;
-  height: 16px;
-}
-
-select {
-  width: 20vw;
-  background-color: #e9e9ed;
-  border: 1px solid #a3a3ae;
-  border-radius: 3px;
-  margin-right: 3px;
-}
-
-.play {
-  display: flex;
-  align-items: center;
+  align-items : center; 
 }
 
 .record {
   display: flex;
-  justify-content: center;
+  justify-content : center;
   align-items: center;
   margin-left: auto;
   margin-right: 35%;
@@ -107,3 +80,36 @@ select {
     background-color: black;
     color: white;
   }
+  
+  .play {
+  display: flex;
+  align-items : center;
+  
+}
+
+
+label {
+  margin-right: 3px;
+}
+
+button {
+  margin-right: 3px;
+  width: 28px;
+  height: 24px;
+}
+
+img {
+  width: 16px;
+  height: 16px;
+}
+
+select {
+  width: 20vw;
+  background-color: #e9e9ed;
+  border: 1px solid #a3a3ae;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+
+
+
