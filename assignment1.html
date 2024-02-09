@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Piano</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style_of_a1.css">
-</head>
-<body>
-    <div class="imageClass">
-        <img src="oops.jpg" alt="Oops" width="500" height="353">
-        <p>This website requires at least 600px screen width.</p>
-    </div>
-
-    <div class="pianoClass">
-        <div class="play">
-            <label for="select_tune">Tune:</label>
-            <select id ="select_tune" name="songs">
-                <option value="fürelise">F&#252;r Elise</option>
-                <option value="thegodfather">The Godfather</option>
-                <option value="sevennationarmy">Seven Nation Army</option>
-            </select>
-            <button type="submit">
-                <img src="play.png" alt="Play button" >
-            </button>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="imageClass">
+            <img src="oops.jpg" alt="Oops" width="500" height="353">
+            <p>This website requires at least 600px screen width.</p>
         </div>
 
-        <div class="record">
-            <label for="Record">Record:</label>
-            <button type="submit">
-                <img src="record.png" alt="Record button" />
-            </button>
-            <button type="submit">
-                <img src="stop.png" alt="Stop button" />
-            </button>
+        <div class="pianoClass">
+            <div class="play">
+                <label for="Tune">Tune:</label>
+                <select name="songs">
+                    <option value="fürelise">F&#252r Elise</option>
+                    <option value="thegodfather">The Godfather</option>
+                    <option value="sevennationarmy">Seven Nation Army</option>
+                </select>
+                <button type="submit">
+                    <img src="play.png" alt="Play button" />
+                </button>
+            </div>
+
+            <div class="record">
+                <label for="Record">Record:</label>
+                <button type="submit">
+                    <img src="record.png" alt="Record button" />
+                </button>
+                <button type="submit">
+                    <img src="stop.png" alt="Stop button" />
+                </button>
+            </div>
         </div>
-        
         <div class="piano">
             <button class="key white-key">C4<br>(a)</button>
             <button class="key white-key">D4<br>(s)</button>
