@@ -18,14 +18,24 @@ body {
 .pianoClass {
   display: flex;
   align-items: center;
-  margin-left: 0;
-  margin-right: 5%;
-  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-right: 35%;
+}
+
+.piano {
+  display: flex;
+  justify-content: left;
+  margin-left: 10%;
+  margin-top: 32px;
 }
 
 @media only screen and (max-width: 599px) {
-.pianoClass {
-      display: none;
+  .pianoClass {
+    display: none;
+    }
+  .piano {
+    display: none;
   }
   .imageClass {
       display: block;
@@ -61,11 +71,6 @@ body {
   padding-left: 40px;
 }
 
-.piano {
-  display: flex;
-  justify-content: left;
-}
-
 .key {
   display: inline-block;
   border: 1px solid #a3a3ae;
@@ -75,11 +80,11 @@ body {
   padding: 0px;
 }
 
-  .white-key {
-    height: 100px;
-    width: 75px;
-    background-color: white;
-    transition-duration: 0.4s;
+.white-key {
+  height: 100px;
+  width: 9%;
+  background-color: white;
+  transition-duration: 0.4s;
   }
 
   .white-key:active {
@@ -87,17 +92,42 @@ body {
   }
 
   .black-key {
-    top: 0px;
     height: 75px;
-    width: 50px;
+    width: 4%;
     background-color: black;
     color: white;
+    position: absolute;
+    top: -12;
     transition-duration: 0.4s;
   }
 
   .black-key:active {
     background-color: #989898;
   }
+
+  .c4 {
+    margin-left: 6%;
+  }
+  .d4 {
+    margin-left: 14%;
+  }
+  
+  .f4 {
+    margin-left: 30%;
+  }
+  .g4 {
+    margin-left: 38%;
+  }
+  .bb4 {
+    margin-left: 46%;
+  }
+  
+  .c5 {
+    margin-left: 61%;
+  }
+  .d5 {
+    margin-left: 69%;
+  }  
 
   .play {
   display: flex;
