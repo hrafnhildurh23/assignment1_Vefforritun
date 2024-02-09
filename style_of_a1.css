@@ -93,7 +93,6 @@ body {
     background-color: black;
     color: white;
     transition-duration: 0.4s;
-    right: 25px;
   }
 
   .black-key:hover {
