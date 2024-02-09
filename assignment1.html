@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Piano</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style_of_a1.css" />
+        <link rel="stylesheet" type="text/css" href="style_of_a1.css" >
     </head>
     <body>
         <div class="imageClass">
@@ -13,24 +14,24 @@
 
         <div class="pianoClass">
             <div class="play">
-                <label for="Tune">Tune:</label>
-                <select name="songs">
-                    <option value="fürelise">F&#252r Elise</option>
+                <label for="select_tune">Tune:</label>
+                <select id="select_tune" name="songs">
+                    <option value="fürelise">F&#252;r Elise</option>
                     <option value="thegodfather">The Godfather</option>
                     <option value="sevennationarmy">Seven Nation Army</option>
                 </select>
                 <button type="submit">
-                    <img src="play.png" alt="Play button" />
+                    <img src="play.png" alt="Play button" >
                 </button>
             </div>
 
             <div class="record">
-                <label for="Record">Record:</label>
-                <button type="submit">
-                    <img src="record.png" alt="Record button" />
+                <label for="select_record">Record:</label>
+                <button id="select_record" type="submit">
+                    <img src="record.png" alt="Record button" >
                 </button>
                 <button type="submit">
-                    <img src="stop.png" alt="Stop button" />
+                    <img src="stop.png" alt="Stop button" >
                 </button>
             </div>
         </div>
